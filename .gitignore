@@ -1,0 +1,76 @@
+# Simulation outputs
+*.vcd
+*.vvp
+*.lxt
+*.fst
+*_sim
+
+# Icarus Verilog
+*.out
+
+# Synopsys VCS
+csrc/
+simv
+simv.daidir/
+ucli.key
+*.vpd
+DVEfiles/
+
+# Cadence Xcelium / Incisive
+xcelium.d/
+INCA_libs/
+*.shm/
+*.log
+*.key
+*.dsn
+*.trn
+
+# Empyrean (华大九天)
+*.db
+*.ddc
+*.svf
+*.pvl
+*.mr
+alib-52/
+work/
+default.svf
+
+# Synthesis
+*.syn
+*.mapped.v
+*.gates.v
+netlist/
+
+# Physical design
+*.gds
+*.gdsii
+*.oas
+*.def
+*.lef
+*.spef
+*.sdf
+
+# Timing / Power reports
+*.rpt
+*.timing
+*.power
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.bak
